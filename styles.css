@@ -1,0 +1,134 @@
+body {
+    font-family:'Arial', sans-serif;
+    background-image: url(adaoo.avif);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.fotonovia {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fotonovia img {
+    max-width: 1000px;
+    max-height: 500px;
+    height: auto;
+    border-radius: 10px; /* Ajusta según sea necesario */
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+}
+.titulo h2 {
+    font-size: 36px;
+}
+.titulo h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.reproductor {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+audio {
+    background-color: #ffcccc;
+    border: 1px solid #ff6666;
+    border-radius: 10px;
+    width: 400px; /* Ancho al 100% del contenedor */
+    max-width: 600px; /* Ajusta según sea necesario, esto limita el ancho máximo */
+    margin: 0 auto; /* Centra el reproductor */
+    margin-bottom: 70px;
+
+}
+
+.container-h4 {
+    text-align: center;
+    margin: 20px auto; /* Ajusta según sea necesario */
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin: 10px auto; /* Ajusta según sea necesario */
+}
+
+
+audio::-webkit-media-controls {
+    background-color: #ffcccc;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #ffcccc;
+}
+
+
+h3 {
+    font-size: 24px;
+    max-width: 20%;
+    margin: 0 auto; 
+}
+
+.titulo h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    text-shadow: #000000;
+    margin-bottom: 100px;
+}
+
+.swiffy-slider {
+    max-width: 500px; 
+    margin: 0 auto; 
+    margin-top: 0px;
+  
+}
+
+.slider-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transition: transform 0.5s ease-in-out; 
+    overflow: hidden;
+    background-color: #ff9393; /* Cambia el color de fondo según tus preferencias */
+    border-radius: 12px; /* Ajusta según sea necesario para redondear las esquinas */
+    padding: 20px; /* Ajusta según sea necesario para dar espacio entre el fondo y los sliders */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5); /* Ajusta la intensidad y el color de la sombra */
+}
+.slider-container li {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+    max-width: 600px; /* Ajusta según tus preferencias */
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #ff9393; /* Cambia el color de fondo según tus preferencias *
+    padding: 20px; /* Ajusta según sea necesario para dar espacio entre el fondo y los sliders */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5); /* Ajusta la intensidad y el color de la sombra */
+}
+
+h5 {
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+}
+h6 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 24px;
+}
